@@ -10,7 +10,6 @@ class TestBubbleSort:
     def test_cp1_vacio(self):
         arr = []
         self.sut.sort(arr)
-        # Assert
         assert arr == []
 
     def test_cp1_un_elemento(self):
